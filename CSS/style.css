@@ -28,6 +28,16 @@ a{
 li{
     list-style: none;
 }
+/* loader */
+#loader{
+    background: #fff url(../loading.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 10%;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 /* navbar */
 nav{
     width: 100%;
